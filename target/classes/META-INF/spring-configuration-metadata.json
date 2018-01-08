@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.security.core.properties.SecurityProperties",
+      "name": "dou.security",
+      "type": "org.security.core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.security.core.properties.SecurityProperties",
+      "name": "dou.security.browser",
+      "type": "org.security.core.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "org.security.core.properties.SecurityProperties",
+      "name": "dou.security.code",
+      "type": "org.security.core.properties.ValidateCodeProperties"
+    },
+    {
+      "sourceType": "org.security.core.properties.SecurityProperties",
+      "name": "dou.security.oauth2",
+      "type": "org.security.core.properties.OAuth2Properties"
+    },
+    {
+      "sourceType": "org.security.core.properties.SecurityProperties",
+      "name": "dou.security.social",
+      "type": "org.security.core.properties.SocialProperties"
+    }
+  ]
+}
